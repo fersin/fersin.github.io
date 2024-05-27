@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #1a1a1a;
+            color: #f1f1f1;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f1f1f1;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #f1f1f1;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #f1f1f1;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .projects, .contact {
+            margin-top: 40px;
+        }
+        .project {
+            background-color: #2a2a2a;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .contact-form {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3a3a3a;
+            color: #f1f1f1;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #555;
+            color: #f1f1f1;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <a href="#about">Sobre Mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">Sobre Mí</h2>
+            <p>Hola, soy Luis fernando jaramillo sanchez, Estudiante de seguridad en ti en la UANL. soy un apasionado por la tacnologia mas especifico en la seguridad ofensiva asi como el blue teaming y el OSINT, de constante aprendeizaje y automotivado, gusto en trabajo en equipo y tolerancia a la frustracion. Mi objetivo es seguir creciendo profesionalmente en el campo de la seguridad y todos sus alrededores que me ayuden a convertir en un profesional de la seguridad ofensiva mas integral, contribuyendo con mi entusiasmo y habilidades técnicas para abordar desafíos en este campo. Tengo experiencia en las siguientes áreas:</p>
+            <ul>
+                <li><strong>Python scripting:</strong> request, bs4, pwn, scapy, os</li>
+                <li><strong>Linux - Bash scripting</strong></li>
+                <li><strong>Windows - Powershell scripting</strong></li>
+                <li><strong>Nmap avanzado</strong></li>
+                <li><strong>Pentesting web:</strong> burpsuite, dirbuster, gobuster, owasp zap</li>
+                <li><strong>TOP OWASP</strong></li>
+                <li><strong>Network:</strong> wireshark, scapy</li>
+                <li><strong>Enumeration:</strong> nmap</li>
+                <li><strong>General:</strong> python mitre attack</li>
+                <li><strong>Cracking:</strong> john the ripper, hashcat</li>
+            </ul>.
+            </p>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1. Qué tecnologías usaste y qué lograste.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2. Qué tecnologías usaste y qué lograste.</p>
+            </div>
+            <!-- Añade más proyectos según sea necesario -->
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contacto</h2>
+            <form class="contact-form">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
