@@ -1,7 +1,19 @@
-// api/redirect.js
-export default function handler (req, res) {
-  const target = "http://localhost:5000/ethiack_1337_lmao"; 
-
-  res.writeHead(302, { Location: target });
-  res.end();
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirigiendo...</title>
+  <!-- Redirección instantánea vía meta refresh -->
+  <meta http-equiv="refresh" content="0; url=https://www.youtube.com/">
+  <!-- Redirección por JavaScript como respaldo -->
+  <script>
+    window.location.replace("https://www.youtube.com/");
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a YouTube... Si no ocurre nada,
+    <a href="http://localhost:5000/ethiack_1337_lmao">haz clic aquí</a>.
+  </p>
+</body>
+</html>
