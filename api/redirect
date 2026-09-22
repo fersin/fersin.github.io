@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirigiendo...</title>
   <!-- Redirección instantánea vía meta refresh -->
-  <meta http-equiv="refresh" content="0; url=https://www.youtube.com/">
+  <meta http-equiv="refresh" content="0; url=http://localhost:5000/ethiack_1337_lmao">
   <!-- Redirección por JavaScript como respaldo -->
   <script>
-    window.location.replace("https://www.youtube.com/");
+    window.location.replace("http://localhost:5000/ethiack_1337_lmao");
   </script>
 </head>
 <body>
